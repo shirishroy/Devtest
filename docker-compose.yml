@@ -1,0 +1,6 @@
+services:
+  docker-message:
+    build:
+      context: .
+    container_name: docker-message-container
+    command: /usr/local/bin/docker_message
